@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView txtPassword;
     private ImageView imageView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,15 @@ public class MainActivity extends AppCompatActivity {
                 Usuario usuario = new Usuario();
                 usuario.Cedula = usuario.Cedula.toString();
                 usuario.Password = usuario.Password.toString();
+            }
+        });
+
+        findViewById(R.id.lblRegistro).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(MainActivity.this, FormularioDeRegistroActivity.class);
+                startActivity(i);
             }
         });
     }
