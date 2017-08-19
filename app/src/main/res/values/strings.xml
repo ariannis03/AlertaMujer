@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AlertaMujer</string>
+
+    <string-array name="estado_civil">
+        <item>Estado Civil</item>
+        <item>Soltera</item>
+        <item>Casada</item>
+        <item>Viuda</item>
+        <item>Divorciada</item>
+    </string-array>
 </resources>
