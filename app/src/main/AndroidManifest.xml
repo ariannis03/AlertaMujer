@@ -3,6 +3,7 @@
     package="com.example.ariannyreyes.alertamujer">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,10 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroActivity">
-
-        </activity>
-        <activity android:name=".FormularioDeRegistroActivity"></activity>
+        <activity android:name=".RegistroActivity"></activity>
+        <activity android:name=".FormularioDeRegistroActivity" />
+        <activity android:name=".PerfilActivity"></activity>
     </application>
 
 </manifest>
